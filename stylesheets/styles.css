@@ -1,0 +1,133 @@
+h1{
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-size: 56pt;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-weight: 400;
+}
+
+h2{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 22pt;
+  font-weight: 600;
+}
+
+p {
+  margin: 35px;
+}
+
+.textHeader{
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.text{
+  color: #282F54;
+}
+
+.bioText {
+  font-size: 14pt;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+  padding: 0px 90px;
+  line-height: 1.75;
+}
+
+.footer{
+  font-size: 13pt;
+  font-family: 'Abel', sans-serif;
+  margin-bottom: 100px;
+}
+
+hr{
+  border: 1px solid #282F54;
+  margin-left: 48%;
+  margin-right: 48%;
+  margin-bottom: 3em;
+}
+
+.picture{
+  width: 75%;
+  display: inline;
+}
+
+.column{
+  flex: 33.33%;
+  padding: 10px;
+}
+
+.row{
+  display: flex;
+  text-align: center;
+}
+
+
+.row-responsive{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.imageGrid{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.imageRow{
+  display: block;
+}
+
+.imageRow img{
+  margin-top: 8px;
+}
+
+.gridImage{
+  width: 25%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column-responsive{
+  padding: 0 4px;
+  display: grid;
+}
+
+.column-responsive img{
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 25%;
+}
+
+.pictures {
+  margin-bottom: 5%;
+}
+
+.imageGallery{
+  display: inline-block;
+  width: 180px;
+  padding: 0px 50px;
+}
+
+.totalGallery{
+  text-align: center;
+}
+
+.imageGallery img {
+  width: 100%;
+  height: auto;
+}
+
+.descriptionGallery {
+  padding: 15px;
+  text-align: center;
+}
+
+.widthGallery {
+    display: inline-block;
+}

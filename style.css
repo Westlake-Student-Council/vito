@@ -1,0 +1,94 @@
+
+/*
+General css
+ */
+body {
+    margin: 0px;
+    background-color: #ffefc4;
+    font-size: 20px;
+    /* #fff5c3 */
+}
+.content {
+	margin: 3%;
+}
+h3 {
+	text-align: center;
+}
+hr {
+	border: 0px;
+	border-top: 2px dotted black;
+	
+}
+.right {
+	text-align: right;
+}
+
+img {
+	height: 10%;
+}
+
+.gallery td {
+	border: 1px solid black;
+	
+	width: 25%;
+}
+
+/*
+Header css
+ */
+h1 {
+    text-align: center;
+    font-size: 100px;
+    margin: 20px 0px;
+}
+h1 img {
+   height: 70px;
+}
+.header {
+    display: table;
+    width: 100%;
+}
+.header a {
+    display: table-cell;
+    text-align: center;
+    background-color: #e6cc83;
+    /* #add8e6 */
+    border: 1px solid black;
+    /* #71b5cc */
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+    width: 25%;
+}
+/*
+Gallery css
+ */
+.button {
+         background-color: purple;
+         border: none;
+         color: white;
+         padding: 20px 34px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 20px;
+         margin: 4px 2px;
+         cursor: pointer;
+}
+table {
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+td, th {
+	border: 1px solid black;
+}
+.smalltext {
+	font-size: 16px;
+}
+.tinytext {
+	font-size: 14px;
+}

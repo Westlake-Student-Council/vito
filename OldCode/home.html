@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vito</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Quicksand|Roboto|Rubik|Source+Sans+Pro|Abel" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1 class="text">Vito</h1>
+
+
+    <div class="pictures">
+      <div class="row">
+
+        <div class="column">
+          <img class="picture" src="assets/images/img2.jpg" alt="img1">
+        </div>
+
+        <div class="column">
+          <img class="picture" src="assets/images/img2.jpg" alt="img2">
+        </div>
+
+        <div class="column">
+          <img class="picture" src="assets/images/img2.jpg" alt="img3">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="bio">
+      <h2 class="textHeader text">About Vito</h2>
+      <hr>
+      <p class="bioText text">
+        On May 5, 2015 somewhere in Mexico a yellow English Labrador Retriever is born. His name is Vito. He is a cute, cuddly and fluffy puppy. He spends the first two years of his life at a breeders in Mexico.
+        At two years old Vito made the journey from Mexico to Hill Country Dog Center in Texas.
+        In June 2017 an entourage from Eanes ISD made the journey to Pipe Creek and selected Vito out of all the other dogs to come and become part of the security team at Eanes ISD.
+        Vito remained at the trainers in Pipe Creek and in July, Deputy Peals met Vito and together over the next two weeks they trained hard, resulting in passing of required certification.
+        Vito arrived on campus and Deputy Peals began orientating him to the school.
+        They continue their training together with Travis County Sheriff's Office K9 unit.
+        Vito has been very successful since he first arrived here and is always looking for more to do. He is happy when he is working and he is almost as happy when he is home relaxing.
+      </p>
+
+      <p class="footer bioText text">
+        - Deputy B. Peals #3562
+        SRO Westlake High School
+      </p>
+    </div>
+
+
+    <div class="totalGallery">
+
+      <div class="widthGallery">
+
+        <div class="imageGallery">
+          <!-- <a target="_blank" href="assets/images/img1.jpg"> -->
+            <img src="assets/images/img1.jpg" alt="Vito Dog" width="600" height="400">
+          <!-- </a> -->
+          <div class="descriptionGallery text">Vito the Dog Placer Description</div>
+        </div>
+
+        <div class="imageGallery">
+            <img src="assets/images/img2.jpg" alt="Vito Dog" width="600" height="400">
+          <div class="descriptionGallery text">Vito the Dog Placer Description</div>
+        </div>
+
+        <div class="imageGallery">
+            <img src="assets/images/img3.jpg" alt="Vito Dog" width="600" height="400">
+          <div class="descriptionGallery text">Vito the Dog Placer Description</div>
+        </div>
+
+      </div>
+
+
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.9.0/slick/slick.min.js"></script> -->
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.autoplay').slick({
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 2000,
+        });
+      });
+      </script>
+
+  </body>
+</html>
