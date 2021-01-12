@@ -3,6 +3,7 @@
 <head>
     <title>Vito - Home</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="dog.png">
 </head>
 <body>
     <?php include('header.php')?>
