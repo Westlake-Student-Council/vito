@@ -27,9 +27,11 @@
 
         <br><div class="smalltext">- Deputy B. Peals #3562 SRO Westlake High School</div>
     </p>
+    
     <br>
     <hr>
     <br>
+
     <h3>Questions from students</h3>
 
 	<!--
@@ -52,6 +54,9 @@
             </th>
             
         </tr>
+
+
+        <tr>
 
 <!--
 	WORK     IN      PROGRESS   !!
