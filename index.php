@@ -52,9 +52,7 @@
             <th>
                 Date
             </th>
-            
         </tr>
-
 
         <tr>
 
