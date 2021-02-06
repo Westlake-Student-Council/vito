@@ -16,10 +16,10 @@
         <?php include('header.php')?>
 
         <div class="content">
-        <!--
-        <p style="text-align:center;">Have a great picture of Vito?</p>
-        <a class="button" href="submitapicture.php">Send it in!</a>
-        -->
+            <!--
+            <p style="text-align:center;">Have a great picture of Vito?</p>
+            <a class="button" href="submitapicture.php">Send it in!</a>
+            -->
             <table class="gallery" width="100%" border="1">
                 <tr>
                     <td>
