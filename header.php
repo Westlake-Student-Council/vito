@@ -6,15 +6,18 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
+                <li class="nav-item <?php if(strcmp($page_name,"home") == 0) echo "active"; ?>">
+                    <a class="nav-link" href="index.php">Home</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item <?php if(strcmp($page_name,"gallery") == 0) echo "active"; ?>">
                     <a class="nav-link" href="gallery.php">Gallery</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="credits.php">Credits</a>
+                <li class="nav-item <?php if(strcmp($page_name,"faqs") == 0) echo "active"; ?>">
+                    <a class="nav-link" href="faqs.php">FAQs</a>
                 </li>
+                <!-- <li class="nav-item <?php //if(strcmp($page_name,"credits") == 0) echo "active"; ?>">
+                    <a class="nav-link" href="credits.php">Credits</a>
+                </li> -->
             </ul> 
 
             <ul class="navbar-nav ml-auto">
