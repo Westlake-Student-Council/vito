@@ -5,6 +5,7 @@ class DialogueCreation
 {
     protected $pdo = null;
     private $question;
+    private $inquirer_name;
     private $email_address;
     private $answer;
 	private $isAnswered;
@@ -13,6 +14,7 @@ class DialogueCreation
     {
         $this->pdo = DatabaseConnection::instance();
 		$this->question = "";
+        $this->inquirer_name = "";
 		$this->email_address = "";
 	}
 
@@ -23,6 +25,17 @@ class DialogueCreation
 		}
 		else {
 			$this->question = $question;
+			return "";
+		}
+	}
+
+    public function setInquirerName(string $inquirer_name): string
+	{
+		if(empty($inquirer_name)) {
+			return "Please enter your first name.";
+		}
+		else {
+			$this->question = $inquirer_name;
 			return "";
 		}
 	}
