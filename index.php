@@ -121,7 +121,7 @@
             <!-- Three columns of text below the carousel -->
             <div class="row">
                 <div class="col-lg-4">
-                    <img class="rounded-circle" src="deputy-peals.jpg" alt="Deputy Peals" width="140" height="140">
+                    <img class="rounded-circle" src="assets/images/blank-profile-pic.png" alt="Deputy Peals" width="140" height="140">
                     <h2>Deputy Peals</h2>
                     <p>About the Deputy</p>
                     <p><a class="btn btn-secondary" href="#" role="button">Contact »</a></p>
