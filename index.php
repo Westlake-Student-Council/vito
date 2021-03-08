@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <?php include "header.php"; ?>
+    <?php $page_name = "home"; include "header.php"; ?>
 
     <main role="main">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
