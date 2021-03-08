@@ -40,61 +40,51 @@
             <div class="row text-center text-lg-left">
 
                 <div class="col-lg-3 col-md-4 col-6">
-                    <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="assets/images/bowtie-1.jpg" alt="">
-                    </a>
+                    <div class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="assets/images/gallery/bowtie-1.jpg" alt="">
+                    </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-6">
-                    <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="assets/images/bluebonnets.jpg" alt="">
-                    </a>
+                    <div class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="assets/images/gallery/bluebonnets.jpg" alt="">
+                    </div>
                 </div>
         
                 <div class="col-lg-3 col-md-4 col-6">
-                    <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="assets/images/captain-america.jpg" alt="">
-                    </a>
+                    <div class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="assets/images/gallery/captain-america.jpg" alt="">
+                    </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
-                    <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/sesveuG_rNo/400x300" alt="">
-                        </a>
+                    <div class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="assets/images/gallery/bus-driver.jpg" alt="">
+                    </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
-                    <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/AvhMzHwiE_0/400x300" alt="">
-                        </a>
+                    <div class="d-block mb-4 h-100" >
+                        <img class="img-fluid img-thumbnail" src="assets/images/gallery/construction.jpg" alt="">
+                    </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
-                    <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/2gYsZUmockw/400x300" alt="">
-                        </a>
+                    <div class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="assets/images/gallery/ngc-cafeteria.jpg" alt="">
+                    </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
-                    <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EMSDtjVHdQ8/400x300" alt="">
-                        </a>
+                    <div class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="assets/images/gallery/lake-time.jpg" alt="">
+                    </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
-                    <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/8mUEy0ABdNE/400x300" alt="">
-                        </a>
+                    <div class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="assets/images/gallery/post-mess.jpg" alt="">
+                    </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
-                    <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/G9Rfc1qccH4/400x300" alt="">
-                        </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                    <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aJeH0KcFkuc/400x300" alt="">
-                        </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                    <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" alt="">
-                        </a>
+                    <div class="d-block mb-4 h-100">
+                        <img class="img-fluid img-thumbnail" src="assets/images/gallery/santa.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
