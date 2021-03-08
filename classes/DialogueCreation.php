@@ -53,11 +53,12 @@ class DialogueCreation
 
     public function addDialogue(): bool
     {
-		$sql = "INSERT INTO dialogues (question, email_address)
-			VALUES (:question, :email_address)";
+		$sql = "INSERT INTO dialogues (inquirer_name, question, email_address)
+			VALUES (:inquirer_name, :question, :email_address)";
 		$stmt = $this->pdo->prepare($sql);
 		$status = $stmt->execute(
 			[
+                'inquirer_name' => $this->inquirer_name,
 				'question' => $this->question,
 				'email_address' => $this->email_address
 			]);
