@@ -1,4 +1,5 @@
 <?php
+$page_name = "faqs";
 require "classes/DialogueReader.php";
 $obj = new DialogueReader();
 $dialogues = $obj->getAnsweredDialogues();
@@ -19,35 +20,53 @@ $dialogues = $obj->getAnsweredDialogues();
 
     <!-- Custom styles for this template -->
     <link href="assets/libraries/carousel.css" rel="stylesheet">
+
+    <style type="text/css">
+        .wrapper{
+            width: 500px;
+            margin: 0 auto;
+            margin-bottom: 50px;
+        }
+
+        main {
+            margin-top: 50px;
+        }
+    </style>
 </head>
 
 <body>
     <?php include "header.php"; ?>
 
     <main role="main">
-        <div class="accordion" id="accordion">
-            <?php 
-            $cardCount = 0;
-            foreach ($dialogues as $dialogue):
-                $cardCount++;
-            ?>
-            <div class="card">
-                <div class="card-header" id="heading<?php echo $cardCount;?>">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse<?php echo $cardCount;?>" aria-expanded="false" aria-controls="collapse<?php echo $cardCount;?>">
-                        <?php echo $dialogue["question"]; ?>
-                        </button>
-                    </h5>
-                </div>
+        <div class="wrapper">
+            <?php if($dialogues): ?>
+            <div class="accordion" id="accordion">
+                <?php 
+                $cardCount = 0;
+                foreach ($dialogues as $dialogue):
+                    $cardCount++;
+                ?>
+                <div class="card">
+                    <div class="card-header" id="heading<?php echo $cardCount;?>">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse<?php echo $cardCount;?>" aria-expanded="false" aria-controls="collapse<?php echo $cardCount;?>">
+                            <?php echo $dialogue["question"]; ?>
+                            </button>
+                        </h5>
+                    </div>
 
-                <div id="collapse<?php echo $cardCount;?>" class="collapse" aria-labelledby="heading<?php echo $cardCount;?>" >
-        
-                    <div class="card-body">
-                        <?php echo $dialogue["answer"]; ?>
+                    <div id="collapse<?php echo $cardCount;?>" class="collapse" aria-labelledby="heading<?php echo $cardCount;?>" >
+            
+                        <div class="card-body">
+                            <?php echo $dialogue["answer"]; ?>
+                        </div>
                     </div>
                 </div>
+                <?php endforeach; ?>
             </div>
-            <?php endforeach; ?>
+        <?php else: ?>
+            <p>There are no questions at the moment. Come back soon!</p>
+        <?php endif; ?>
         </div>
 
         <!-- FOOTER -->
