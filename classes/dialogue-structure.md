@@ -7,5 +7,5 @@ inquirer_name   | varchar(50)   | first name of inquirer
 email_address   | varchar(50)   | email address of the person asking the question
 question        | varchar(500)  | text of the question content
 answer          | varchar(500)  | text of the answer content
-isAnswered      | bool(tinyint) | true or false; whether or not the question has been answered. default: false
+is_answered      | bool(tinyint) | true or false; whether or not the question has been answered. default: false
 time_submitted  | timestamp     | auto-generated
