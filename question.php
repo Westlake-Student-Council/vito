@@ -1,4 +1,6 @@
 <?php
+$page_name = "question";
+
 require "classes/DialogueCreation.php";
 $obj = new DialogueCreation();
 
@@ -15,7 +17,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $inquirer_name_error = $obj->setInquirerName($inquirer_name);
     
     $email_address = trim($_POST["email_address"]);
-    $email_address_error = $obj->setEmailAddress(); 
+    $email_address_error = $obj->setEmailAddress($email_address); 
 
     $question = trim($_POST["question"]);
     $question_error = $obj->setQuestion($question);
@@ -51,7 +53,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
         .wrapper{
             width: 500px;
             margin: 0 auto;
-            margin-top:
+            margin-bottom: 50px;
         }
 
         main {
