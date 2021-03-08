@@ -13,9 +13,9 @@ class DialogueReader {
 	{
 		$sql =
 		   "SELECT  *
-			FROM    events
-            WHERE   isAnswered = true
-			ORDER   BY date DESC";
+			FROM    dialogues
+            WHERE   is_answered = true
+			ORDER   BY question DESC";
 
         $stmt = $this->pdo->prepare($sql);
         $stmt->execute();
