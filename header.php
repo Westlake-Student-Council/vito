@@ -6,19 +6,22 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="gallery.php">Gallery</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="credits.php">Credits</a>
-            </li>
-            <li class="nav-item">
-                <a class="btn btn-success" href="ask.php">Ask a Question!</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.php">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="credits.php">Credits</a>
                 </li>
             </ul> 
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="btn btn-success" href="question.php">Ask a Question!</a>
+                </li>
+            </ul>
         </div>
     </nav>
 </header>
