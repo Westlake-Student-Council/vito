@@ -35,7 +35,7 @@ class DialogueCreation
 			return "Please enter your first name.";
 		}
 		else {
-			$this->question = $inquirer_name;
+			$this->inquirer_name = $inquirer_name;
 			return "";
 		}
 	}
