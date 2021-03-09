@@ -70,7 +70,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 <body class="text-center">
     <form class="form-signin" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
         <img class="mb-4" src="../assets/images/dog.png" alt="" width="72" height="72">
-        <h1 class="h3 mb-3 font-weight-normal">Vito's Website Admin</h1>
+        <h1 class="h3 mb-3 font-weight-normal">Vito's Website</h1>
         
         <label for="username" class="sr-only">Username</label>
         <input id="username" name="username" class="form-control" placeholder="Username" required="" autofocus="">
