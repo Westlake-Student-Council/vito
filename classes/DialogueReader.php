@@ -29,5 +29,24 @@ class DialogueReader {
 		}
     }
 
+    public function getDialogues(): ?array
+	{
+		$sql =
+		   "SELECT  *
+			FROM    dialogues
+			ORDER   BY dialogue_id DESC";
+
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute();
+        $dialogues = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+		if(!$dialogues) {
+			return null;
+		}
+		else {
+			return $dialogues;
+		}
+    }
+
 }
 ?>
