@@ -9,11 +9,11 @@
                 <li class="nav-item <?php if(strcmp($page_name,"home") == 0) echo "active"; ?>">
                     <a class="nav-link" href="index.php">Home</a>
                 </li>
-                <li class="nav-item <?php if(strcmp($page_name,"gallery") == 0) echo "active"; ?>">
-                    <a class="nav-link" href="gallery.php">Gallery</a>
-                </li>
                 <li class="nav-item <?php if(strcmp($page_name,"faqs") == 0) echo "active"; ?>">
                     <a class="nav-link" href="faqs.php">FAQs</a>
+                </li>
+                <li class="nav-item <?php if(strcmp($page_name,"gallery") == 0) echo "active"; ?>">
+                    <a class="nav-link" href="gallery.php">Gallery</a>
                 </li>
                 <!-- <li class="nav-item <?php //if(strcmp($page_name,"credits") == 0) echo "active"; ?>">
                     <a class="nav-link" href="credits.php">Credits</a>
