@@ -33,9 +33,13 @@
     <main role="main">
 
         <div class="container">
-            <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Photo Gallery</h1>
+            <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0"><b>Photo Gallery</b></h1>
+
+
+            <p>Do you have awesome photos of Vito you'd like to share? Send them to vito@westlakestuco.com, and we'll add them to the gallery!</p>
 
             <hr class="mt-2 mb-5">
+
 
             <div class="row text-center text-lg-left">
 
