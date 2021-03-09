@@ -127,36 +127,36 @@ if(isset($_POST["dialogue_id"]) && !empty($_POST["dialogue_id"])){
 
                             <!--field for inquirer_name-->
                             <div class="form-group <?php echo (!empty($inquirer_name_error)) ? 'has-error' : ''; ?>">
-                                <label>First Name of Person Asking Question</label>
+                                <label><b>First Name of Person Asking Question</b></label>
                                 <input readonly name="inquirer_name" class="form-control" value="<?php echo $inquirer_name; ?>">
                                 <span class="help-block"><?php echo $inquirer_name_error;?></span>
                             </div>
 
                             <!--field for email_address-->
                             <div class="form-group <?php echo (!empty($email_address_error)) ? 'has-error' : ''; ?>">
-                                <label>Email Address of Person Asking Question</label>
+                                <label><b>Email Address of Person Asking Question</b></label>
                                 <input readonly name="email_address" class="form-control" value="<?php echo $email_address; ?>">
                                 <span class="help-block"><?php echo $email_address_error;?></span>
                             </div>
 
                             <!--field for question-->
                             <div class="form-group <?php echo (!empty($question_error)) ? 'has-error' : ''; ?>">
-                                <label>Question Content</label>
+                                <label><b>Question Content</b></label>
                                 <textarea type="text" name="question" class="form-control"><?php echo $question; ?></textarea>                          
                                 <span class="help-block"><?php echo $question_error;?></span>
                             </div>
 
                             <!--field for answer-->
                             <div class="form-group <?php echo (!empty($answer_error)) ? 'has-error' : ''; ?>">
-                                <label>Answer Content</label>
+                                <label><b>Answer Content</b></label>
                                 <textarea type="text" name="answer" class="form-control"><?php echo $answer; ?></textarea>                          
                                 <span class="help-block"><?php echo $answer_error;?></span>
                             </div>
 
                             <!--field for is_answered-->
                             <div class="form-group <?php echo (!empty($is_answered_error)) ? 'has-error' : ''; ?>">
-                                <label for="is_answered">Is this ready to be displayed in the FAQs?</label>
-                                <input type="radio" name="is_answered" value="0" <?php if($is_answered==0){echo "checked";}?>> Not yet
+                                <label for="is_answered"><b>Is this ready to be displayed in the FAQs?&nbsp;</b></label>
+                                <input type="radio" name="is_answered" value="0" <?php if($is_answered==0){echo "checked";}?>> Not yet.&nbsp;&nbsp;
                                 <input type="radio" name="is_answered" value="1" <?php if($is_answered==1){echo "checked";}?>> Yes!
                                 <span class="help-block"><?php echo $is_answered_error;?></span>
                             </div>
