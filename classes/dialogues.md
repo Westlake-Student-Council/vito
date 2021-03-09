@@ -1,4 +1,4 @@
-# Dialogue Table Structure
+# Dialogues Table Structure
 
 column_name     | data_type     | additional_notes
 ------------    |------------   |------------
