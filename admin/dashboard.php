@@ -107,6 +107,11 @@ $dialogues = $obj->getDialogues();
             <?php else: ?>
                 <p>There are no dialogues at the moment. Come back soon!</p>
             <?php endif; ?>
+
+            <br>
+
+            <p>Rows highlighted in <mark style="background-color: #97f50a;"><b>green</b></mark> are currently displayed on the <a href="../faqs.php" target="_blank">FAQs</a> page of the main site.</p>
+
         </div>
         
         <!-- /.container -->
