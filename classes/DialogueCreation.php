@@ -45,6 +45,9 @@ class DialogueCreation
 		if(empty($email_address)) {
 			return "Please enter an email address.";
 		}
+        else if(!strpos($email_address, '@eanesisd.net')) {
+            return "Sorry, form is only open to Westlake Chaps.";
+        }
 		else {
 			$this->email_address = $email_address;
 			return "";
