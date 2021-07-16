@@ -24,8 +24,8 @@
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class=""></li>
-            <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+            <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
             </ol>
 
             <div class="carousel-inner">
@@ -39,7 +39,7 @@
                     </div>
                     </div>
                 </div>
-                <div class="carousel-item active">
+                <div class="carousel-item">
                     <img class="second-slide" src="assets/images/img2.jpg" alt="Second slide">
                     <div class="container">
                     <div class="carousel-caption">
@@ -49,12 +49,12 @@
                     </div>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item active">
                     <img class="third-slide" src="assets/images/img4.jpg" alt="Third slide">
                     <div class="container">
-                    <div class="carousel-caption text-right">
-                        <h1>See Vito in Action!</h1>
-                        <p>Click below to see what Vito's been up to, on and off campus.</p>
+                    <div class="carousel-caption text-right ">
+                        <h1 class="outlining">See Vito in Action!</h1>
+                        <p class="outlining-bottom">Click below to see what Vito's been up to, on and off campus.</p>
                         <p><a class="btn btn-lg btn-primary" href="gallery.php" role="button">Browse gallery</a></p>
                     </div>
                     </div>
